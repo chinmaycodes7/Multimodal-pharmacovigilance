@@ -1,0 +1,30 @@
+# Core deps used across most notebooks
+torch>=2.4.0
+torchvision>=0.19.0
+transformers>=4.45.0
+accelerate>=0.34.0
+safetensors>=0.4.4
+bitsandbytes>=0.43.1
+huggingface_hub
+
+# Vision / multimodal
+pillow
+open-clip-torch>=2.24.0
+einops>=0.7.0
+qwen_vl_utils          # required by localization/qwen2vl_localization_*.ipynb
+
+# Data / evaluation
+pandas
+tqdm
+rouge-score
+scikit-learn
+matplotlib
+
+# GGUF/quantized local inference (classification/*_llamacpp.ipynb, entity_extraction/drug_extraction_llama.ipynb & _medllama.ipynb, summarization/medllama_summarization.ipynb)
+llama-cpp-python
+
+# --- Not on PyPI, install separately ---
+# Med-Flamingo (localization/medflamingo_localization.ipynb) depends on open_flamingo.
+# Install from source per: https://github.com/snap-stanford/med-flamingo
+#   git clone https://github.com/mlfoundations/open_flamingo
+#   pip install -e open_flamingo/

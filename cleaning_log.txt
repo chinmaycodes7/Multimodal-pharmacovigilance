@@ -1,0 +1,30 @@
+OK    drug_extraction_GEMMA.ipynb  ->  entity_extraction/drug_extraction_gemma.ipynb
+OK    drug_extraction_LLAMA.ipynb  ->  entity_extraction/drug_extraction_llama.ipynb
+OK    drug_extraction_MEDLLAMA.ipynb  ->  entity_extraction/drug_extraction_medllama.ipynb
+OK    drug_extraction_QWEN.ipynb  ->  entity_extraction/drug_extraction_qwen.ipynb
+OK    BioBERT_NER.ipynb  ->  entity_extraction/biobert_ner.ipynb
+OK    BioBERT_NER_long_text.ipynb  ->  entity_extraction/biobert_ner_long_text.ipynb
+OK    LLaVA_Med_1_Trial_1_textOnly_NER.ipynb  ->  entity_extraction/llava_med_textonly_ner.ipynb
+OK    Gemma_Classification_ADR.ipynb  ->  classification/gemma_classification_adr.ipynb
+OK    Qwen_Classification_ADR.ipynb  ->  classification/qwen_classification_adr.ipynb
+OK    MedLLaMA_Classification_ADR.ipynb  ->  classification/medllama_classification_adr_transformers.ipynb
+OK    MedLLaMA1_Classification_ADR.ipynb  ->  classification/medllama_classification_adr_llamacpp.ipynb
+OK    Gemma_localization_D1500_Code_V2.ipynb  ->  localization/gemma_paligemma_localization.ipynb
+OK    Qwen2_Localization_D1500_Code.ipynb  ->  localization/qwen2vl_localization_generic.ipynb
+OK    Qwen2Med_Localization_D1500_Code.ipynb  ->  localization/qwen2vl_localization_biomed.ipynb
+OK    MedFlamingo_Localization_D1500_Code.ipynb  ->  localization/medflamingo_localization.ipynb
+OK    MedGemma_Localization.ipynb  ->  localization/medgemma_localization.ipynb
+OK    MedGemma4B_Localization_07_12_25.ipynb  ->  localization/medgemma4b_localization.ipynb
+OK    LLaVA_Med_1_Trial_1_multiple_images_locate_position.ipynb  ->  localization/llava_med_localization_multi_image.ipynb
+OK    LLaVA_Med_1_Trial_1_multiple_images_CSV.ipynb  ->  localization/llava_med_dermatology_description.ipynb
+OK    LLaVA_Med_zoomed_out.ipynb  ->  localization/llava_med_localization_zoomed_out.ipynb
+OK    LLaVA-Med_Dissection_Code_2.ipynb  ->  localization/llava_med_left_right_bias_probe.ipynb
+OK    medllama_summarization.ipynb  ->  summarization/medllama_summarization.ipynb
+OK    summary_LLAVA_MED.py  ->  summarization/summary_llava_med.py
+OK    LLaVA_Med_1_Trial_1_textOnly_Summary_Rouge.ipynb  ->  summarization/llava_med_textonly_summary_rouge.ipynb
+OK    exact_and_partial_match_with_output_file.ipynb  ->  evaluation/exact_and_partial_match.ipynb
+OK    LLAMA_NER_ROUGE.ipynb  ->  evaluation/llama_ner_rouge_eval.ipynb
+OK    File_Merge.ipynb  ->  evaluation/file_merge_utility.ipynb
+DROP  Gemma_localization_D1500_Code.ipynb  (Entire notebook body was commented out (non-functional as saved); superseded by Gemma_localization_D1500_Code_V2.ipynb (kept as gemma_paligemma_localization.ipynb).)
+DROP  Summarisation_MEDLLAMA.ipynb  (Incomplete/truncated draft; superseded by medllama_summarization.ipynb, which has the same pipeline fully implemented and documented.)
+DROP  LLaVA-Med_Dissection_Code_1.ipynb  (Near-identical to LLaVA-Med_Dissection_Code_2.ipynb but missing one helper function; kept Code_2 as llava_med_left_right_bias_probe.ipynb.)
